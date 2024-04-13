@@ -1,0 +1,20 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+   "id": 0,
+   "status": 1,
+   "credit_history": 4,
+   "purpose": 2,
+   "savings": 1,
+   "employment_duration": 2,
+   "installment_rate": 4,
+   "personal_status_sex": 2,
+   "other_debtors": 1,
+   "present_residence": 4,
+   "property": 2,
+   "other_installment_plans": 3,
+   "housing": 1,
+   "number_credits": 1,
+   "job": 3,
+   "people_liable": 2,
+   "telephone": 1,
+   "foreign_worker":0
+}' http://localhost:5000/predict
